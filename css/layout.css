@@ -1,1 +1,40 @@
-.album
+ /* daft punk logo sur coté */
+ 
+ .app-top {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 2;
+    /* overflow: scroll;  Pour fixe le footer*/
+} 
+
+.album {
+    display: flex;
+    justify-content: space-between;
+    color: red;
+}
+
+.tracklist {
+    display: flex;
+    flex-direction: column;
+}  
+
+
+.album-infos h1 {
+    display: flex;
+    justify-content: center;
+    flex-grow: 6;
+}
+
+
+
+.track-item {
+    display: flex;
+    flex-grow: 3;
+    justify-content: space-between;
+} 
+
+/* -----------------------------------------------------
+
+                    @@@ FOOTER
+--------------------------------------------------------*/
+
