@@ -9,7 +9,7 @@
     display: flex;
     justify-content: flex-start;
     overflow: scroll;
-    height: 100vh;    Pour fixe le footer*/
+    height: 100vh;   /* Pour fixe le footer*/
 } 
 
 .album {
