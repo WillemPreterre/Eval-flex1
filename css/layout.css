@@ -1,10 +1,15 @@
  /* daft punk logo sur coté */
+
+
+ /* -------------------------------------------
+            @@@ main 
+--------------- --------------------------- */
  
  .app-top {
     display: flex;
     justify-content: flex-start;
-    flex-grow: 2;
-    /* overflow: scroll;  Pour fixe le footer*/
+    overflow: scroll;
+    height: 100vh;    Pour fixe le footer*/
 } 
 
 .album {
@@ -38,3 +43,26 @@
                     @@@ FOOTER
 --------------------------------------------------------*/
 
+.app-bottom {
+    display: flex;  
+    justify-content: space-between;
+
+}
+
+.current {
+    display: flex;
+    flex-grow: 1;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.current-details {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
